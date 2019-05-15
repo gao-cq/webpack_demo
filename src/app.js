@@ -8,8 +8,7 @@ const App =function(){
 	var app=document.getElementById("app");
 	app.innerHTML = layer().tpl({
 		name:'tplarr',
-		arr:["arr1","arr2"],
-		src:"../src/images/pic.jpg"
+		arr:["arr1","arr2"]
 	})
 }
 

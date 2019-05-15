@@ -59,14 +59,12 @@ module.exports = {
 			    	{
 				        loader: 'html-loader',
 				        options: {
-				            attrs: [':data-src']
+				            // attrs: [':data-src']
 				        }
-				    },
-			        {
-			        	loader:'ejs-loader'
-			        }
+				    }
 		        ]
-			},{
+			},
+			{
 				test: /\.tpl$/,
 			    loader: 'ejs-loader'
 			},
@@ -84,13 +82,20 @@ module.exports = {
 						loader:'image-webpack-loader'
 					}
 				]
+			},
+			{
+				test: /\.ejs$/,
+				use:[
+					'ejs-loader',
+					'ejs-html-loader'
+				]	     
 			}
 		]
 	},
 	plugins:[
 		new htmlWebpackPlugin({
 			filename:'index.html',
-			template:'index.html',
+			template:'index.ejs',
 			inject:'body'
 		})
 	]

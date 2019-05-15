@@ -1,12 +1,17 @@
-module.exports = function(obj) {
-obj || (obj = {});
-var __t, __p = '', __j = Array.prototype.join;
-function print() { __p += __j.call(arguments, '') }
-with (obj) {
-__p += '<!DOCTYPE html>\r\n<html lang="en">\r\n<head>\r\n	<meta charset="UTF-8">\r\n	<title>111</title>\r\n</head>\r\n<body>\r\n	';
- requrie('./header.html') ;
-__p += '\r\n	<div id="app"></div>\r\n<script type="text/javascript" src="js/bunle.js"></script></body>\r\n</html>';
-
-}
-return __p
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>111</title>
+</head>
+<body>
+	<div class="header">
+	<div>this is header</div>
+</div>
+	<img src="src/images/pic.jpg" alt="">
+	<div id="app"></div>
+	<div class="footer">
+	this is footer
+</div>
+<script type="text/javascript" src="js/bunle.js"></script></body>
+</html>

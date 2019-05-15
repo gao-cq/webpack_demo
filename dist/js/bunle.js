@@ -172,7 +172,7 @@ eval("/**\n * When source maps are enabled, `style-loader` uses a link element w
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var layer = __webpack_require__(/*! ./layer/layer.js */ \"./src/layer/layer.js\");\n\n__webpack_require__(/*! ./layer/layer.css */ \"./src/layer/layer.css\");\n\n__webpack_require__(/*! ./layer/style.scss */ \"./src/layer/style.scss\");\n\nvar App = function App() {\n  var app = document.getElementById(\"app\");\n  app.innerHTML = layer().tpl({\n    name: 'tplarr',\n    arr: [\"arr1\", \"arr2\"],\n    src: \"../src/images/pic.jpg\"\n  });\n};\n\nnew App();\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("var layer = __webpack_require__(/*! ./layer/layer.js */ \"./src/layer/layer.js\");\n\n__webpack_require__(/*! ./layer/layer.css */ \"./src/layer/layer.css\");\n\n__webpack_require__(/*! ./layer/style.scss */ \"./src/layer/style.scss\");\n\nvar App = function App() {\n  var app = document.getElementById(\"app\");\n  app.innerHTML = layer().tpl({\n    name: 'tplarr',\n    arr: [\"arr1\", \"arr2\"]\n  });\n};\n\nnew App();\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -214,9 +214,9 @@ eval("var tpl = __webpack_require__(/*! ./layer.tpl */ \"./src/layer/layer.tpl\"
   !*** ./src/layer/layer.tpl ***!
   \*****************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("module.exports = function(obj) {\nobj || (obj = {});\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\nwith (obj) {\n__p += '<div class=\"layer\">\\r\\n\t<div>this is ' +\n((__t = ( name )) == null ? '' : __t) +\n'</div>\\r\\n\t';\n for(var k in arr){ ;\n__p += '\\r\\n\t<div>' +\n((__t = ( arr[k] )) == null ? '' : __t) +\n'</div>\\r\\n\t';\n } ;\n__p += '\\r\\n\t<div>this is pic</div>\\r\\n\t<img src=\"' +\n((__t = ( src )) == null ? '' : __t) +\n'\" alt=\"\">\\r\\n\t<img src=\" ' +\n((__t = (__webpack_require__(/*! ../images/pic.jpg */ \"./src/images/pic.jpg\"))) == null ? '' : __t) +\n' \" alt=\"\">\\r\\n</div>';\n\n}\nreturn __p\n}\n\n//# sourceURL=webpack:///./src/layer/layer.tpl?");
+eval("module.exports = function(obj) {\nobj || (obj = {});\nvar __t, __p = '', __j = Array.prototype.join;\nfunction print() { __p += __j.call(arguments, '') }\nwith (obj) {\n__p += '<div class=\"layer\">\\r\\n\t<div>this is ' +\n((__t = ( name )) == null ? '' : __t) +\n'</div>\\r\\n\t';\n for(var k in arr){ ;\n__p += '\\r\\n\t<div>' +\n((__t = ( arr[k] )) == null ? '' : __t) +\n'</div>\\r\\n\t';\n } ;\n__p += '\\r\\n\t<div>this is pic</div>\\r\\n</div>\\r\\n\\r\\n\\r\\n';\n\n}\nreturn __p\n}\n\n//# sourceURL=webpack:///./src/layer/layer.tpl?");
 
 /***/ }),
 
