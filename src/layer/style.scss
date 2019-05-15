@@ -1,0 +1,10 @@
+$color:red;
+
+body{
+	background:$color;
+	display:flex;
+
+	.layer{
+		height: 200px;
+	}
+}

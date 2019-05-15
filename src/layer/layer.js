@@ -1,4 +1,4 @@
-// var tpl=require('./layer.html')
+var tpl=require('./layer.tpl')
 
 function layer () {
 	return {
