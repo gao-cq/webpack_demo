@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background: red;\\n  display: -webkit-box;\\n  display: -moz-box;\\n  display: -ms-flexbox;\\n  display: flex; }\\n  body .layer {\\n    height: 200px; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/layer/style.scss?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background: red; }\\n  body .layer {\\n    height: 200px; }\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/layer/style.scss?./node_modules/css-loader/dist/cjs.js??ref--6-1!./node_modules/postcss-loader/src!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
@@ -104,7 +104,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body{\\r\\n\\tdisplay: -webkit-box;\\r\\n\\tdisplay: -moz-box;\\r\\n\\tdisplay: -ms-flexbox;\\r\\n\\tdisplay: flex;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/layer/flex.css?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".header{\\r\\n\\tdisplay: -webkit-box;\\r\\n\\tdisplay: -moz-box;\\r\\n\\tdisplay: -ms-flexbox;\\r\\n\\tdisplay: flex;\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/layer/flex.css?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src");
 
 /***/ }),
 
@@ -115,7 +115,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../node_modules/postcss-loader/src!./flex.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/layer/flex.css\"), \"\");\nvar urlEscape = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../images/pic.jpg */ \"./src/images/pic.jpg\"));\n\n// Module\nexports.push([module.i, \"\\r\\n/*@import './style.scss';*/\\r\\n\\r\\nbody{\\r\\n\\tbackground: orange;\\r\\n\\tdisplay: -webkit-box;\\r\\n\\tdisplay: -moz-box;\\r\\n\\tdisplay: -ms-flexbox;\\r\\n\\tdisplay: flex;\\r\\n}\\r\\n\\r\\n.layer{\\r\\n\\tbackground: url(\" + ___CSS_LOADER_URL___0___ + \")\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/layer/layer.css?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.i(__webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../node_modules/postcss-loader/src!./flex.css */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js!./src/layer/flex.css\"), \"\");\nvar urlEscape = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/url-escape.js */ \"./node_modules/css-loader/dist/runtime/url-escape.js\");\nvar ___CSS_LOADER_URL___0___ = urlEscape(__webpack_require__(/*! ../images/pic.jpg */ \"./src/images/pic.jpg\"));\n\n// Module\nexports.push([module.i, \"\\r\\n/*@import './style.scss';*/\\r\\n\\r\\nbody{\\r\\n\\tbackground: orange;\\r\\n}\\r\\n\\r\\n.layer{\\r\\n\\tbackground: url(\" + ___CSS_LOADER_URL___0___ + \")\\r\\n}\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/layer/layer.css?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src");
 
 /***/ }),
 
